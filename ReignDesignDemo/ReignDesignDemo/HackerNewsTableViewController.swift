@@ -11,11 +11,18 @@ import Alamofire
 
 class HackerNewsTableViewController: UITableViewController {
 
+    let baseURL: String = "http://hn.algolia.com/api/v1/search_by_date?query=ios"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        HackerNewsDataController.loadFeed("http://hn.algolia.com/api/v1/search_by_date?query=ios", completion:
-            { (HackerNewsData, error) -> Void in
-            let json = JSON(data: HackerNewsData)
+        
+
+//        HackerNewsDataController.loadDataFromURL(NSURL(string: baseURL)!, completion: { (data, error) -> Void in
+//            println(data)
+//        })
+        HackerNewsDataController.loadFeed(baseURL, completion: { (hackerData, error) -> Void in
+            println(hackerData)
+
         })
         // Do any additional setup after loading the view, typically from a nib.
     }

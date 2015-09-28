@@ -8,5 +8,9 @@
 
 import Foundation
 class HackerNewsModel: NSObject{
+    var title: String?
+    var author: String?
+    var date: NSDate?
+    var bodyText: String?
     
 }

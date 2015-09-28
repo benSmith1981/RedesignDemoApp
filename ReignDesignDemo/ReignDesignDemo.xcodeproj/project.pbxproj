@@ -14,6 +14,7 @@
 		90AB6B5B1BB94778001B6123 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90AB6B5A1BB94778001B6123 /* Images.xcassets */; };
 		90AB6B5E1BB94778001B6123 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90AB6B5C1BB94778001B6123 /* LaunchScreen.xib */; };
 		90AB6B6A1BB94778001B6123 /* ReignDesignDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB6B691BB94778001B6123 /* ReignDesignDemoTests.swift */; };
+		90B5BBC51BB9A82100F3B5FD /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B5BBC41BB9A82100F3B5FD /* SwiftyJSON.swift */; };
 		90C580D41BB951E800A4E65B /* HackerNewsDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C580D31BB951E800A4E65B /* HackerNewsDataController.swift */; };
 		90C580D61BB99DB400A4E65B /* HackNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C580D51BB99DB400A4E65B /* HackNewsModel.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		90AB6B631BB94778001B6123 /* ReignDesignDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReignDesignDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90AB6B681BB94778001B6123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90AB6B691BB94778001B6123 /* ReignDesignDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReignDesignDemoTests.swift; sourceTree = "<group>"; };
+		90B5BBC41BB9A82100F3B5FD /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		90C580D31BB951E800A4E65B /* HackerNewsDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackerNewsDataController.swift; sourceTree = "<group>"; };
 		90C580D51BB99DB400A4E65B /* HackNewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackNewsModel.swift; sourceTree = "<group>"; };
 		A337EEAEB97ABB8A60511C13 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +111,7 @@
 		90AB6B501BB94778001B6123 /* ReignDesignDemo */ = {
 			isa = PBXGroup;
 			children = (
+				90B5BBC41BB9A82100F3B5FD /* SwiftyJSON.swift */,
 				90AB6B531BB94778001B6123 /* AppDelegate.swift */,
 				90AB6B551BB94778001B6123 /* HackerNewsTableViewController.swift */,
 				90C580D51BB99DB400A4E65B /* HackNewsModel.swift */,
@@ -310,6 +313,7 @@
 				90C580D41BB951E800A4E65B /* HackerNewsDataController.swift in Sources */,
 				90AB6B561BB94778001B6123 /* HackerNewsTableViewController.swift in Sources */,
 				90AB6B541BB94778001B6123 /* AppDelegate.swift in Sources */,
+				90B5BBC51BB9A82100F3B5FD /* SwiftyJSON.swift in Sources */,
 				90C580D61BB99DB400A4E65B /* HackNewsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
