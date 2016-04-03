@@ -7,16 +7,11 @@
 //
 
 import UIKit
-import Alamofire
 
 class HackerNewsTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        HackerNewsDataController.loadFeed("http://hn.algolia.com/api/v1/search_by_date?query=ios", completion:
-            { (HackerNewsData, error) -> Void in
-            let json = JSON(data: HackerNewsData)
-        })
         // Do any additional setup after loading the view, typically from a nib.
     }
 

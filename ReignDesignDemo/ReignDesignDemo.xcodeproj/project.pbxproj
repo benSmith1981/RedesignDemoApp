@@ -16,6 +16,8 @@
 		90AB6B6A1BB94778001B6123 /* ReignDesignDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AB6B691BB94778001B6123 /* ReignDesignDemoTests.swift */; };
 		90C580D41BB951E800A4E65B /* HackerNewsDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C580D31BB951E800A4E65B /* HackerNewsDataController.swift */; };
 		90C580D61BB99DB400A4E65B /* HackNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C580D51BB99DB400A4E65B /* HackNewsModel.swift */; };
+		BEBF12261CB1A02A00EA9479 /* HackerNewsDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C580D31BB951E800A4E65B /* HackerNewsDataController.swift */; };
+		BEBF12271CB1A16200EA9479 /* HackNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C580D51BB99DB400A4E65B /* HackNewsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -320,6 +322,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEBF12271CB1A16200EA9479 /* HackNewsModel.swift in Sources */,
+				BEBF12261CB1A02A00EA9479 /* HackerNewsDataController.swift in Sources */,
 				90AB6B6A1BB94778001B6123 /* ReignDesignDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

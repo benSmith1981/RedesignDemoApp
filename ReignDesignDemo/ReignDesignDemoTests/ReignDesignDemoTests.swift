@@ -8,6 +8,7 @@
 
 import UIKit
 import XCTest
+@testable import ReignDesignDemo
 
 class ReignDesignDemoTests: XCTestCase {
     
@@ -33,4 +34,17 @@ class ReignDesignDemoTests: XCTestCase {
         }
     }
     
+    func testUserRequestReturnsData() {
+        let expectation = expectationWithDescription("Waiting to respond")
+        
+        HackerNewsDataController.sharedInstance.loadFeed() { (flag) in
+            XCTAssert(HackerNewsDataController.sharedInstance.newHackerData != nil)
+            
+            let result = HackerNewsDataController.sharedInstance.newHackerData!
+            XCTAssertTrue(flag)
+            expectation.fulfill()
+        }
+        
+        waitForExpectationsWithTimeout(5.0, handler:nil)
+    }
 }
