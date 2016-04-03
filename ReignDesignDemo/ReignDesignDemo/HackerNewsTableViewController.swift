@@ -27,7 +27,7 @@ class HackerNewsTableViewController: UITableViewController {
 
     //MARK UITableview methods
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier("NewsCell", forIndexPath: indexPath) as! UITableViewCell
+        let cell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier("NewsCell", forIndexPath: indexPath) 
         let row = indexPath.row
         return cell
     }
